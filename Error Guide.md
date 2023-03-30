@@ -18,7 +18,7 @@ Pip install pycocotools</pre>
 <b>Error:</b> ValueError: 'images' must have either 3 or 4 dimensions.<br/>
 <b>Solution:</b> Restart your jupyter notebook as the Webcam is unavailable. If using images, this normally means your image name and path is incorrect.
 
-<b>Error:</b>error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvDestroyAllWindows'<br/>
+<b>Error:</b>error: (-2:Unspecified error) The functions is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvDestroyAllWindows'<br/>
 <b>Solution:</b> Reinstall opencv and uninstall opencv-headless
 <pre>
 pip uninstall opencv-python-headless -y
